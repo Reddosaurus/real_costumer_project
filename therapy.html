@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Psychotherapie Abbestrasse</title>
+  <!-- set initial viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Latest compiled and minified CSS of bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <!-- Load Open Sans 300 + 400 from Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" />
+  <!-- Costum CSS -->
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+  <!-- Start page content -->
+  <div class="row">
+    <div class="col-xs-12 headbalken">
+  </div>
+</div>
+  <div class="container">
+
+
+    <!-- Start header content -->
+    <div class="row">
+      <div class="col-lg-12">
+        <header>
+          <!-- show the overlay navigation menu for mobile -->
+          <div class="row visible-xs-block ">
+            <div class="col-xs-12">
+              <div class="pull-right open-btn" onclick="openNav()"><img src="img/menu.png" alt="Icon für das Menu"></div>
+            </div>
+          </div>
+
+          <!-- Start header image and heading -->
+          <div class="row">
+            <div class="cols-xs-12">
+              <img class="logo img-responsive" src="img/logo_abbestrasse_zwei.png" alt="Logo der Psychotherapie Praxis Abbestrasse" />
+              <h3 class="headline">
+                <span class="big-letter"></h3>
+            </div>
+          </div>
+          <!-- End header image and heading -->
+          <!-- Start mobile nav -->
+          <div class="row visible-xs-block">
+            <div class="col-xs-12">
+              <!-- The overlay -->
+              <div id="mobile-nav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="#" class="close-btn" onclick="closeNav()">&times;</a>
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                  <a href="illness.html">Krank sein</a>
+                  <a href="healthy.html">Gesund sein</a>
+                  <a href="therapy.html">Psychotherapie</a>
+                  <a href="team.html">Wir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End mobile nav -->
+
+          <!-- Start normal nav -->
+          <div class="row">
+            <div class="col-md-12 hidden-xs nav-bar">
+              <nav>
+                <ul>
+                  <li class="first-level homebutton">
+                    <a href="index.html"><!--<img class="first-level homebutton" src="img/home-btn.png" alt="Home Button Bild"/>--><span>Home</span>
+                    </a>
+                  </li>
+                  <li class="first-level">
+                    <a href="illness.html">Krank sein</a>
+                  </li>
+                  <li class="first-level">
+                    <a href="healthy.html">Gesund sein</a>
+                  </li>
+                  <li class="first-level">
+                    <a href="therapy.html">Gesund werden</a>
+                  </li>
+                  <!-- Start team button dropdown -->
+                  <li id="wir">
+                    <div class="dropdown">
+                      <a href="team.html" data-toggle="dropdown" class="dropdown-toggle">Wir<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="team.html" class="team-menu">Unser Team</a></li>
+                        <li><a href="#" class="team-menu">Dipl.-Psych. Fritz Plotzizka </a></li>
+                        <li><a href="#P3" class="team-menu">Person3</a></li>
+                        <li><a href="#P3" class="team-menu">Person3</a></li>
+                        <li><a href="#P4" class="team-menu">Person4</a></li>
+                        <li><a href="#P5" class="team-menu">Person5</a></li>
+                        <li><a href="#P6" class="team-menu">Person6</a></li>
+                        <li><a href="#" class="team-menu">Person7</a></li>
+                        <li><a href="#" class="team-menu">Person8</a></li>
+                        <li><a href="#" class="team-menu">Person9</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- End team button dropdown -->
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- End normal nav-->
+        </header>
+      </div>
+    </div>
+    <!-- End header content -->
+
+    <!-- Start img slider -->
+    <div class="row">
+      <div id="carousel" class="carousel  slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/slides/1.jpg" alt="Bild 1 des Sliders">
+            <div class="carousel-caption hidden-xs">
+              <h3>Herzlich Willkommen in der Praxis Abbestrasse</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slides/2.jpg" alt="Bild 2 des Sliders">
+            <div class="carousel-caption hidden-xs">
+              <h3>Probleme kann man niemals mit derselben Denkweise lösen, durch die sie entstanden sind.<br> Albert Einstein (1879-1955),Theor.Physiker</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slides/6.jpg" alt="Bild 3 des Sliders">
+            <div class="carousel-caption hidden-xs">
+              <h3>Weiterer Zitat</h3>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End img slider -->
+
+    <!-- Start main content -->
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="content-heading">Gesund werden</h1>
+        <button class="contact-btn">
+          <a href="contact.html">
+            <span>Kontakt</span>
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
+
+    <!-- End main content -->
+<div class="row">
+<div class="col-xs-12">
+<article id="text-therapy">
+   <img src="img/Buro.jpg" alt="room" width="290px" height:"240px"><br><br>
+    Das Leben ist schwierig. Sachen gehen schief, welche nicht schief gehen sollten. Menschen verhalten sich anders, als es verabredet worden ist. Ansprüche werden an mich gestellt, die ich nicht erfüllen kann.
+
+    Psychotherapie
+    ist zum Beispiel das Anerkennen der Tatsache, dass das Leben schwierig ist. Dinge gehen schief. Der ganz neue VW Golf wird ausgeliefert mit einem Reserverad oder einem Pannenspray. Der Hersteller geht davon aus, dass etwas kaputt geht. Das Leben wird etwas weniger stressig, wenn ich erwarte, dass Dinge auch schief gehen können. Ich bin verabredet und mein Kollege kommt nicht. Wenn ich erwarte, dass so etwas auch  - selten - passieren kann, nehme ich die Situation vielleicht an und bin nicht so gestresst.
+
+    Psychotherapie
+    ist zum Beispiel das Wahrnehmen, was an Denken, Fühlen und Spüren mit den Sinnen alles in mir fortdauernd passiert.
+
+
+    Psychotherapie
+    ist zum Beispiel das Wahrnehmen, wie erschöpft ich schon lange bin. Früher habe ich das gar nicht so bemerkt, die Leistungen immer erbracht, die von mir erwartet wurden.
+
+
+    Psychotherapie
+    ist zum Beispiel das bewusste Wahrnehmen, wie oft meine Gedanken und Gefühle vor dem Einschlafen um Probleme des Tages kreisen, und ich kann nicht abschalten, mein Einschlafen ist schwierig.
+
+
+
+
+    Psychotherapie, Definition
+
+    (aus: Wikipedia)
+
+    Als "Psyche" wird das innere Erleben des Menschen, das weitgehend unbewusst ist und aus dem der größte Teil des menschlichen Verhaltens entspringt, bezeichnet.
+
+    Unter "Therapie" werden "Maßnahmen zum Behandeln von Krankheiten, Behinderungen und Verletzungen aufgrund einer zuvor erlangten Diagnose verstanden. Ziel des Therapeuten ist die Ermöglichung oder Beschleunigung einer Heilung, die Beseitigung oder Linderung der Symptome und die Wiederherstellung der körperlichen oder psychischen Funktion".
+    (alle Definitionen aus Wikipedia).
+
+    In einer Psychotherapie geht es einerseits um die Frage: "warum" habe ich diese Probleme ? Hier geht der Blick in die Vergangenheit, die eigene Geschichte, die Ursachen der Symptome.
+    Andererseits geht es um die Frage, "wie" diese Probleme überwunden werden können, um Besserung und Gesundung.  Hier steht die Gegenwart im Mittelpunkt, hier geht es um konkrete Veränderungen im Umgang mit den Beschwerden - um die Frage, wie die eigenen Kompetenzen und Ressourcen, die dabei hilfreich sein und eingesetzt werden können.
+
+
+</article>
+</div>
+</div>
+
+    <!-- Start footer content -->
+    <div class="row">
+      <div class="col-xs-12 footer">
+        <ul>
+          <li>
+            <a href="impressum.html">Impressum</a>
+          </li>
+          <li>
+            <a href="contact.html">Kontakt</a>
+          </li>
+          <li>
+            <a href="#">Fragen und Antworten</a>
+          </li>
+
+        </ul>
+        <p id="adress">Psychotherapie Abbestrasse <br> Abbestrasse 33, 22765 Hamburg <br>Tel: 040/ 395514</p>
+      </div>
+    </div>
+    <!-- End footer content -->
+
+  </div>
+  <!-- End page content -->
+
+  <!-- Latest compiled and minified JavaScript from jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript from Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Costum JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
